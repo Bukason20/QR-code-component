@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-container{
+    background-color: white;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 15px 5px;
+    border-radius: 8px;
+}
+.qr-container img{
+    width: 95%;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+.qr-contents{
+    margin: 30px 20px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.qr-contents h3{
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+}
+.qr-contents p{
+    color: hsl(220, 15%, 55%);
+    margin-top: 20px;
+}
